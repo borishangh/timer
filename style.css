@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+:root {
+    --black: rgb(53, 53, 53);
+    --grey: rgb(168, 168, 168);
+}
+
+.main {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hrs,
+.min,
+.sec {
+    font-size: min(64px, 8vw);
+    letter-spacing: .1em;
+    font-weight: 600;
+    color: var(--grey);
+}
+
+.fill{
+    color: var(--black);
+}
+
+.hrs::after,
+.min::after {
+    content: ':';
+}
