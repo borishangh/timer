@@ -1,6 +1,6 @@
-# timer
-simple timer site w/ only keyboard inputs:
-  Type - to enter time
-  Backspace - delete
-  Enter - start timer
-  Escape - stop timer
+## timer 🤍
+A simple timer site w/ only keyboard inputs:
+- Type - enter time
+- Backspace - delete
+- Enter - start timer
+- Escape - stop timer
